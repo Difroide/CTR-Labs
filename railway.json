@@ -1,0 +1,9 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "buildCommand": "npm install --prefix front && npm run build --prefix front"
+  },
+  "deploy": {
+    "startCommand": "npx serve front/dist -p $PORT"
+  }
+}
