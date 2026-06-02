@@ -1,0 +1,9 @@
+{
+  "name": "ctr-labs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix front && npm run build --prefix front",
+    "start": "npx serve front/dist -p ${PORT:-3000}"
+  }
+}
