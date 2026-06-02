@@ -1,5 +1,5 @@
 [phases.install]
-cmds = ["npm ci --prefix front"]
+cmds = ["npm install --prefix front"]
 
 [phases.build]
 cmds = ["npm run build --prefix front"]
